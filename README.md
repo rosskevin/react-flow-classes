@@ -1,5 +1,7 @@
 Test repo showing the variations on ES2015 class definitions with flow.
 
+`npm install && npm run flow`
+
 I've tried many trying to get to the right solution, so far, not so good.
 
 I'm taking cues from [flux-utils-todomvc sample app](https://github.com/facebook/flux/blob/master/examples/flux-utils-todomvc/js/components/TodoItem.react.js)...with no luck.
