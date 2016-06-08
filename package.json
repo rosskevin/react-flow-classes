@@ -1,0 +1,36 @@
+{
+  "name": "react-flow-classes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "flowtype and classes with react - false positives?",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6",
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosskevin/react-flow-classes.git"
+  },
+  "keywords": [
+    "flowtype",
+    "react",
+    "es2015"
+  ],
+  "author": "Kevin Ross <kevin.ross@alienfast.com> (https://github.com/rosskevin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosskevin/react-flow-classes/issues"
+  },
+  "homepage": "https://github.com/rosskevin/react-flow-classes#readme",
+  "devDependencies": {
+    "flow-bin": "^0.26.0"
+  },
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}
