@@ -10,7 +10,7 @@ class Foo extends React.Component {
   state:State
   static defaultProps:DefaultProps;
 
-  // fails without this static method above constructor
+  // fails without this static method or semicolon above first constructor/member method
   //static bar ():void {}
 
   constructor (props) {
