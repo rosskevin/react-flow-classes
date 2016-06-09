@@ -1,4 +1,4 @@
-# Test Repo
+# Test Repo for [flow/issues#1908](https://github.com/facebook/flow/issues/1908)
 
 This shows an ES2015/ES6/ES7 parsing bug - it will fail if there isn't a semicolon or static method after property declarations and before the first member method.
 
